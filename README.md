@@ -1,4 +1,4 @@
-# Physics textbook: Year 10
+# Physics: Year 10
 
 This textbook loosely follows the course in Physics taught at Riga State Gymnasium No 1. The main focus is on mechanics with the following topics discussed in detail:
 
