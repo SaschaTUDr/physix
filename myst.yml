@@ -1,0 +1,31 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 3f2842c2-01b3-4cfd-9141-d14aa879f533
+  title: PhysiX
+  description: A textbook for Year 10 Physics
+  github: https://github.com/SaschaTUDr/physix
+  license: CC-BY-SA-4.0
+  abstract: |
+    This textbook follows the course in Physics taught at Riga State Gymnasium No 1 in Year 10 covering fundamentals of classical mechanics and aiming to develop problem solving, experimental and critical thinking skills. Some accordingly marked sections of the book contain advanced level material and are primarily aimed at the students who are willing to participate in Physics Olympiads.
+  bibliography:
+    - physix.bib
+  numbering:
+    figure:
+      template: Fig. %s
+    table:
+      template: Tab. %s
+  toc:
+    - file: introduction.md
+    - file: background.md
+    - file: kinematics.md
+      children:
+        - file: uniform-motion.md
+        - file: uniformly-accelerated-motion.md
+site:
+  template: book-theme
+  options:
+    numbered_references: true
+    logo_text: PhysiX
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
