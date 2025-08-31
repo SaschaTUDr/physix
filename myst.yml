@@ -16,6 +16,7 @@ project:
     table:
       template: Tab. %s
   toc:
+    - file: physix.md
     - file: introduction.md
     - file: background.md
     - file: kinematics.md
