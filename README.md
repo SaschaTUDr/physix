@@ -1,18 +1,3 @@
----
-authors:
-  - name: Aleksandr Sorokin
-    affiliations:
-      - institution: University of Latvia
-        ror: 05g3mes96
-        department: Faculty of Science and Technology
-        city: Riga
-        country: Latvia
-      - institution: Riga State Gymnasium No 1
-        city: Riga
-        country: Latvia
-    orcid: 0000-0003-2544-871X
----
-
 # PhysiX
 
 This textbook follows the course in Physics taught at Riga State Gymnasium No 1 in Year 10 covering fundamentals of classical mechanics and aiming to develop problem solving, experimental and critical thinking skills.
