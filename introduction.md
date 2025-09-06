@@ -89,6 +89,31 @@ Due to historical reasons or simply for convenience in some fields, certain non-
 
 
 ## Significant figures
+Any measurement is neither absolutely accurate, nor absolutely precise. That means that the result of the measurement should better be stated as an interval. For example, if you measure the length of the table to be $110{,}5\,\mathrm{cm}$, the result may be quoted as $\ell\in[110{,}4;110{,}6]\,\mathrm{cm}$, taking into account the uncertainty of the instrument (in this case, most probably a tape measure). Another, shorter way to quote the same result is like this: $\ell=(110{,}5\pm0{,}1)\,\mathrm{cm}$. Note the use of brackets and units.
+
+If the measurement is repeated with a more precise instrument, the result may be slightly different, but the first three figures – $1$, $1$ and $0$ – will be the same, and the figure $5$ might change just a little bit. The figures of the measurement result that are determined precisely or with a small uncertainty are called _significant_. In our example, all four figures are significant.
+
+Using intervals or the plus-minus notation is somewhat inconvenient when solving theoretical problems, so a simplified approach is used, when it is assumed that all the figures of the number except the zeros at the front are significant. So, e. g., the mass $m=74{,}2\,\mathrm{kg}$ is known to three significant figures (s. f.), the time $t=0{,}0013\,\mathrm{s}$ – to two s. f., the temperature $T=20{,}000\,\mathrm{^\circ C}$ – to five s. f. and the distance $d=3{,}0\cdot10^{-9}\,\mathrm{m}$ – to two s. f.
+
+When **adding** or **subtracting** two quantities, the result will have as many **decimal places** as the quantity with the least number of decimal places, e. g.,
+:::{math}
+:enumerated: false
+  2{,}0\,\mathrm{m}+0{,}52\,\mathrm{m}=2{,}5\,\mathrm{m},
+:::
+as the first quantity has one decimal place, but the seconond one – two. The result is thus rounded to one decimal place.
+
+When **multiplying** or **dividing** quantities as well as raising a quantity to the **power** or taking a **root** thereof, the result will have as many **significant figures** as the quantity with the least number of significant figures, e. g.,
+:::{math}
+:enumerated: false
+  \frac{6{,}0\,\mathrm{kg}\cdot0{,}0200\,\mathrm{m}}{(0{,}5\,\mathrm{s})^2}=0{,}03\,\mathrm{\frac{kg\,m}{s^2}},
+:::
+as the first quantity has two s. f., the second – three and the third – only one. The result is thus rounded to one s. f.
+
+:::{warning}
+  When performing calculations, apply rounding only to the final result, i. e. do not round the intermediate results. If you intend to use the result in further calculations, either save it in the calculator or keep at least one extra s. f.
+
+  Use the regular equals-to sign ‘$=$’, not approximately-equals-to ‘$\approx$’ when writing the rounded results down. 
+:::
 
 
 
