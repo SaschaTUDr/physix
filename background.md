@@ -63,7 +63,7 @@ Solving systems of equations is another skill you will use a lot. For that, you 
 	mg\sin\theta-\mu N&=ma
 \end{aligned}\right.
 :::
-from which you can obtain $a=g(\sin\theta-\mu\cos\theta)$ by expressing $N$ from the first equation and plugging it into the second one.
+from which you can obtain $a=g(\sin\theta-\mu\cos\theta)$ by expressing $N$ from the first equation and substituting it into the second one.
 
 ## Trigonometry
 You are probably already familiar with three basic trigonometric functions (sine, cosine, tangent) as ratios of the sides of a right-angle triangle. This is the interpretation you will use most of the time. Sometimes, however, you will need to operate with trigonometric functions in a more abstract way, by using, e. g., reduction formulae, such as
@@ -129,7 +129,7 @@ Some physical quantities (e. g. velocity, force, displacement etc.) hold inform
 Operations on vectors: addition, subtraction, multiplication by a number, resolution along given axes.
 :::
 
-You should also know, how addition, subtraction and multiplication by a number can be performed on vectors when they are expressed in components (coordinates, projections):
+You should also know, how addition, subtraction and multiplication by a number can be performed on vectors when they are expressed in projections (coordinates, components):
 :::{math}
 :enumerated: false
 
@@ -140,7 +140,7 @@ You should also know, how addition, subtraction and multiplication by a number c
 	\lambda\bm{F}_1=\left(\lambda F_{1x},\lambda F_{1y}\right).
 \end{gathered}
 :::
-Components (coordinates, projections) of a vector are related to its magnitude and the angle it forms with the $x$ axis in a straightforward way. Denoting the magnitude of the vector $\bm{F}$ as $F=\|\bm{F}\|$ and the angle it forms with the $x$ axis as $\varphi{}$, we can use basic trigonometry and Pythagoras theorem to express
+Projections (coordinates, components) of a vector are related to its magnitude and the angle it forms with the $x$ axis in a straightforward way. Denoting the magnitude of the vector $\bm{F}$ as $F=\|\bm{F}\|$ and the angle it forms with the $x$ axis as $\varphi{}$, we can use basic trigonometry and Pythagoras theorem to express
 :::{math}
 :enumerated: false
 

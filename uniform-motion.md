@@ -3,7 +3,7 @@ title: Uniform motion
 label: sec:uniform-motion
 ---
 
-Consider a train moving on a long straight track. This is an example of a one-dimensional motion, as we need only one coordinate, say, $x$ to uniquely identify the position of the train on the track ([](#fig:train-on-track)). Suppose the train was initially at the point with $x=x_0$ and is moving with a constant velocity $v_x$. After time $t$ has elapsed, the train has moved forward from $x_0$ by $v_xt$, hence its position at time $t$ is
+Consider a train moving on a long straight track. This is an example of a one-dimensional motion, as we need only one coordinate, say, $x$ to uniquely identify its position ([](#fig:train-on-track)). Suppose the train was initially at the point with $x=x_0$ and is moving with a constant velocity $v_x$. After time $t$ has elapsed, the train has moved forward from $x_0$ by $v_xt$, hence its position at time $t$ is
 :::{math}
 :label: eq:uniform-motion
 	x(t)=x_0+v_xt.
@@ -52,7 +52,7 @@ The displacement by definition is
 :::
 
 :::{note}
-Strictly speaking, velocity is a vector, and $v_x$ is a component of this vector along the $x$ axis. In the case of a one-dimensional motion, however, velocity vector $\bm{v}=(v_x)$ has only one component, so, colloquially, we might call $v_x$ a velocity as well. Same argument holds for other vectors (displacement, acceleration, etc.) in one dimension.
+Strictly speaking, velocity is a vector, and $v_x$ is a projection of this vector onto the $x$ axis. In the case of a one-dimensional motion, however, velocity vector $\bm{v}=(v_x)$ has only one projection, so, colloquially, we might call $v_x$ a velocity as well. Same argument holds for other vectors (displacement, acceleration, etc.) in one dimension.
 :::
 ::::
 
@@ -63,7 +63,7 @@ According to [](#eq:uniform-motion), the coordinate $x$ of an object in the unif
 :::{figure} figures/uniform-x-t.svg
 :label: fig:uniform-motion
 
-Graphs of the coordinate $x$ (left) and the velocity component $v_x$ (right) as a function of time in uniform motion. Velocities satisfy $v_{1x}>v_{2x}>0>v_{3x}$.
+Graphs of the coordinate $x$ (left) and the velocity projection $v_x$ (right) as a function of time in uniform motion. Velocities satisfy $v_{1x}>v_{2x}>0>v_{3x}$.
 :::
 
 ::::{exercise}
