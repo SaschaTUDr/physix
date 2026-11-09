@@ -105,7 +105,7 @@ as the first quantity has one decimal place, but the seconond one – two. The 
 When **multiplying** or **dividing** quantities as well as raising a quantity to the **power** or taking a **root** thereof, the result will have as many **significant figures** as the quantity with the least number of significant figures, e. g.,
 :::{math}
 :enumerated: false
-  \frac{6{,}0\,\mathrm{kg}\cdot0{,}0200\,\mathrm{m}}{(0{,}5\,\mathrm{s})^2}=0{,}03\,\mathrm{\frac{kg\,m}{s^2}},
+  \frac{6{,}0\,\mathrm{kg}\cdot0{,}0200\,\mathrm{m}}{(0{,}5\,\mathrm{s})^2}=0{,}48\,\mathrm{\frac{kg\,m}{s^2}},
 :::
 as the first quantity has two s. f., the second – three and the third – only one. The result is thus rounded to one s. f.
 
